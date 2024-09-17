@@ -6,7 +6,7 @@ import numpy as np
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--image-path', type=str, default='./data/88_megaage_asian_32_age.jpg')
-    parser.add_argument('--model-path', type=str, default='./age_googlenet.onnx')
+    parser.add_argument('--model-path', type=str, default='./age-googlenet.onnx')
     args = parser.parse_args()
 
     ages = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
